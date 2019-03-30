@@ -11,9 +11,13 @@ body {
     font-weight: 200;
     font-size: 16px;
     overflow-x: hidden;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/bg-img.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/bg-img.jpg");
     background-position: center;
     background-size: cover;
+    
+}
+.app {
+    
 }
 
 /*********DESIGN THE FORMS*****************/
@@ -28,13 +32,13 @@ body {
     background: #f4f4f4;
     text-align: center;
     border-radius: 10px;
-    position: absolute;  
     width: 400px;
-    top: 50%;
+    /* position: absolute;   */
+    /* top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
 }
 
 input {
